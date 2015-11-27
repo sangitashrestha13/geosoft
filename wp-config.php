@@ -1,4 +1,8 @@
-<?php
+<?php
+/** Enable W3 Total Cache Edge Mode */
+define('W3TC_EDGE_MODE', true); // Added by W3 Total Cache
+
+
 /**
  * The base configuration for WordPress
  *
@@ -20,16 +24,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'geosoft_db');
+define('DB_NAME', 'shangrila_shangrilagroup_dev02');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'shangrila_dev');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '_pHQbNsMZ7xwx');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

@@ -1,12 +1,11 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /geosoft_db/
+RewriteBase /dev02/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /geosoft_db/index.php [L]
+RewriteRule . /dev02/index.php [L]
 </IfModule>
 
 # END WordPress
